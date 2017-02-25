@@ -13,3 +13,10 @@ echo "mysql done "
 echo "now php"
 sudo apt-get -y install php5-fpm php5-mysql
 echo "php done"
+
+nginx -v
+echo " nginx verion "
+php --version
+echo "php version"
+mysql --version
+echo "mysql version"
