@@ -12,4 +12,4 @@ sudo mysql_secure_installation
 echo "mysql done "
 echo "now php"
 sudo apt-get -y install php5-fpm php5-mysql
-
+echo "php done"
