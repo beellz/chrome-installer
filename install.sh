@@ -14,6 +14,9 @@ echo "now php"
 sudo apt-get -y install php5-fpm php5-mysql
 echo "php done"
 
+sudo apt-get install php5-cli
+echo"adding cli"
+
 nginx -v
 echo " nginx verion "
 php --version
